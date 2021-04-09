@@ -38,11 +38,9 @@ int countPairs3(int* arr, int len, int value) {
                     chet++;
                 }
                 break;
-            }
-            else if (arr[middle] > twoElement) {
+            } else if (arr[middle] > twoElement) {
                 right = middle;
-            }
-            else {
+            } else {
                 left = middle + 1;
             }
         }
