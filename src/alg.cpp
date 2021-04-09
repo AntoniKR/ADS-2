@@ -19,8 +19,6 @@ int countPairs2(int* arr, int len, int value) {
                     chet++;
             }
         }
-        else
-            break;
     }
     return chet;
 }
